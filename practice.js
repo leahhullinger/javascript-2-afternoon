@@ -15,8 +15,10 @@
 */
 
 //Code here
-
-
+const me = {
+  name: "Leah",
+  age: 34
+}
 
 ////////// PROBLEM 2 //////////
 
@@ -26,7 +28,14 @@
 */
 
 //Code here
-
+const favoriteThings = {
+  band: "Manchester Orchestra",
+  food: "Sushi",
+  person: "Me",
+  book: "How To Change Your Mind",
+  movie: "Fantastic Mr. Fox",
+  holiday: "Mother's Day"
+}
 
 
 /*
@@ -34,15 +43,17 @@
 */
 
 //Code here
+favoriteThings.car = "Landcruiser";
+favoriteThings.brand = "Humanmade";
 
-
-
+console.log()
 /*
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
 
 
 ////////// PROBLEM 3 //////////
@@ -56,6 +67,11 @@
 */
 
 //Code here
+const backPack = {}
+const item = "firstPocket"
+backPack[item] = "chapstick"
+
+backPack.color = "black"
 
 
 
@@ -64,7 +80,7 @@
 */
 
 //Code here
-
+alert(backPack);
 
 
 /*
