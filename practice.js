@@ -80,7 +80,6 @@ backPack.color = "black"
 */
 
 //Code here
-alert(backPack);
 
 
 /*
@@ -90,7 +89,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+console.log(backPack)
 
 
 ////////// PROBLEM 4 //////////
@@ -114,7 +113,8 @@ var user2 = {
 
 //Code Here
 
-
+user2.name = 'Tyler S. McGinnis'
+user2.email = 'tyler.mcginnis@devmounta.in'
 
 
 
@@ -136,7 +136,7 @@ var user2 = {
 */
 
 //Code Here
-
+const methodCollection = {}
 
 
 /*
@@ -145,7 +145,8 @@ var user2 = {
 */
 
 //Code Here
-
+methodCollection.alertHello = () => alert("hello")
+methodCollection.logHello = () => console.log("hello")
 
 
 /*
@@ -153,7 +154,8 @@ var user2 = {
 */
 
 //Code Here
-
+methodCollection.alertHello();
+methodCollection.logHello();
 
 
 ////////// PROBLEM 6 //////////
@@ -164,7 +166,15 @@ var user2 = {
 */
 
 //Code Here
-
+function makePerson(name,birthday,ssn){
+    const person = {
+      name: name,
+      birthday: birthday,
+      ssn: ssn
+  }
+  return person;
+}
+makePerson("Leah", 10/08/83, "xxx-xx-xxxx");
 
 
 ////////// PROBLEM 7 //////////
@@ -175,5 +185,12 @@ var user2 = {
 */
 
 //Code Here
-
-
+function makeCard(cardNumber,expirationDate,securityCode){
+  const newCreditCard = {
+    cardNumber: cardNumber,
+    expirationDate: expirationDate,
+    securityCode: securityCode
+  }
+  return newCreditCard
+}
+makeCard();
