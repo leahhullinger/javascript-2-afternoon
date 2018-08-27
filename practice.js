@@ -80,7 +80,7 @@ backPack.color = "black"
 */
 
 //Code here
-
+alert(backPack);
 
 /*
 You probably noticed that it just alerted [object Object].
